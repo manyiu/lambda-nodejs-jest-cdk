@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "baseUrl": ".",
+    "paths": {
+      "@node_modules/*": ["layers/base/nodejs/node_modules/*"],
+      "@layer/*": ["layers/base/*"]
+    },
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noEmit": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "allowImportingTsExtensions": true
+  },
+  "exclude": ["node_modules"]
+}
